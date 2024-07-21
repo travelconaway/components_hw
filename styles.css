@@ -40,17 +40,32 @@ main {
 /* Section styling */
 section {
     margin-bottom: 20px;
-    border-bottom: 2px solid #007acc;
-    padding-bottom: 10px;
 }
 
 section h2 {
     margin-bottom: 10px;
-    color: #007acc;
 }
 
 p {
     margin-bottom: 10px;
+}
+
+/* Reference list styling */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Footer styling */
@@ -60,23 +75,3 @@ footer {
     margin-top: 20px;
     color: #777;
 }
-
-/* Code styling */
-code {
-    background: #f4f4f4;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-size: 0.9em;
-    color: #d14;
-}
-
-/* Adding a box around the main content */
-/* .content-box {
-    background: #fff;
-    border: 2px solid #007acc;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
- */
